@@ -1,0 +1,49 @@
+.__App {
+  margin: 0;
+  .__Header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+
+    .__headerRight {
+      margin-right: 55px;
+
+      nav {
+        a {
+          margin: 0 20px;
+          transition: all 0.3s ease-in-out;
+          color: #5c5153;
+          text-decoration: none;
+        }
+
+        a:hover,
+        a:active,
+        a:focus {
+          color: #915f6d;
+        }
+      }
+    }
+
+    .__headerLeft {
+      margin-left: 20px;
+
+      h1 {
+        color: #476ea2;
+      }
+    }
+  }
+
+  .__Home {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+
+    .__homeLeft {
+      span {
+        font-size: 46px;
+      }
+    }
+  }
+}
