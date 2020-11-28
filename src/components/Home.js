@@ -6,6 +6,8 @@ const Home = () => {
   return (
     <div className="__Home">
       <div className="__homeLeft">
+        <h1>Alli Pereira</h1>
+        <h3>UX Designer</h3>
         <Typing>
           <span>UX designer and writer based in the world.</span>
           <Typing.Backspace count={42} />
